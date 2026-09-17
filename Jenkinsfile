@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/student-archive-artifact.git'
+                    url: 'https://github.com/Fardin-Faruq/student-archive-artifact.git'
             }
         }
 
